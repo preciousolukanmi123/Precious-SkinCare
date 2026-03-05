@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
  header {
     position: fixed;
@@ -12,7 +13,7 @@ body {
     padding: 15px 5%;
  }
 .header-inner {
-    max-width: 1300px;
+    max-width: 100;
     margin: 0 auto;
     display: flex;
     align-items: center;
