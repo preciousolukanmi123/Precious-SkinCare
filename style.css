@@ -7,14 +7,17 @@ body {
     overflow-x: hidden;
 }
  header {
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background: white;
+    background: rgb(255, 255, 255);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     z-index: 1000;
     padding: 15px 5%;
+    overflow-x: hidden;
+
  }
 .header-inner {
     max-width: 100%;
@@ -465,18 +468,13 @@ footer {
     margin-bottom: 15px;
     font-size: 18px;
 }
+.footer-col p {
+    font-size: 20px;
+}
 
 @media (max-width: 768px) {
     .nav-links {
         display: none;
-    }
-    * {
-    box-sizing: border-box;
-    }
-    
-    body {
-        margin: 0;
-        overflow-x: hidden;
     }
     #menuBar {
         display: block;
@@ -507,4 +505,7 @@ footer {
         color:#ce8c4f;
         text-decoration: none;
     }
+}
+.footer-col p {
+    font-size: 13px;
 }
