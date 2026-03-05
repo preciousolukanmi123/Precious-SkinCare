@@ -470,6 +470,14 @@ footer {
     .nav-links {
         display: none;
     }
+    * {
+    box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
     #menuBar {
         display: block;
     }
